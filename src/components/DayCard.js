@@ -10,6 +10,8 @@ export default function DayCard(props){
     console.log(today, props.day)
     if(today >= props.day){
       setActive(!active)
+    } else {
+      alert("Whoa there Nelly! It ain't time for that one yet!")
     }
   }
 
