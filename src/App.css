@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.header{
+  font-size: 4em;
+  color: green;
+}
+
+.dayCard {
+  width: 13%;
+  margin-top: 5px;
+  margin-right: 5px;
+  background: red;
+  color: green;
+  font-size: 2em;
+  z-index: 2;
+}
+
+.calendar {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 100%;
+  background: silver;
+}
+
+.active {
+  background: green;
+  color: red;
+}
+
+.visibleCard{
+  display: block;
+}
+
+.notVisibleCard{
+  display: none;
+}
+
+.images {
+  width: 200px;
+  height: 200px;
+}
